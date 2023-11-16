@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  color:black;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  
+}
+article{
+  flex: 2;
+  overflow-y: auto;
+  
+}
+aside{
+  flex: 1;
+  overflow-y: auto;
+  background-color:rgb(165, 126, 42);
+  flex-shrink: 4;
+}
+.logo{
+  display:flex;
+  flex-direction: row;
+  color: rgb(221, 209, 40);
+  size: 500px;
+
+}

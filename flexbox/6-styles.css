@@ -634,7 +634,7 @@ Click to expand/hide file contents
   
   
   .nav .nav-item + .nav-item {
-    display:flex;
+    display: flex;
     margin: var(--nav-item-margin);
     padding: 0;
     list-style: none;

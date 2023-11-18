@@ -633,12 +633,16 @@ Click to expand/hide file contents
   
   
   
+  .nav {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
   .nav .nav-item + .nav-item {
-    display: flex;
     margin: var(--nav-item-margin);
-    padding: 0;
-    list-style: none;
-    text-align: center;
+   
   }
 
   

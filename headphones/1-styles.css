@@ -1,12 +1,14 @@
-body{
+.hero-piece{
   background-image: url('/headphones/headphones_hero_1.jpg');
   caret-color: black;
+  margin-bottom: 100px;
   }
 
 header{
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
+
 }
 .headersection{
   display:flex;
@@ -53,9 +55,11 @@ main{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display:block;
   text-align: center;
+  
 }
 p{
   margin-top: -12px;
+  
   
 }
 button {
@@ -77,4 +81,30 @@ button {
 button:hover{
   opacity:0.9;
 }
+.what-we-do{
+  margin-bottom: 50px;
+  margin-top: 80px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:block;
+  text-align: center;
+}
+.what-we-do p{
+  margin-top: 50px;
+}
+.icons{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-top: 100px;
+ margin-bottom: auto;
+}
 
+.icons p{
+  text-align: center;
+  margin-left: -15px;
+  margin-top: auto;
+}

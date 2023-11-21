@@ -1,0 +1,514 @@
+.hero-piece {
+  background-image: url('headphones_hero_1.jpg');
+  caret-color: black;
+  margin-bottom: 100px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.headersection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 550px;
+  padding: 0px;
+  list-style: none;
+  text-align: end;
+  align-items: end;
+
+
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-link:hover {
+  color: #FF6565;
+
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+main {
+  margin-bottom: 50px;
+  margin-top: 280px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  text-align: center;
+
+}
+
+p {
+  margin-top: -12px;
+
+
+}
+
+button {
+
+  background-color: rgb(241, 70, 70);
+  border: none;
+  border-radius: 24px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.p-padding {
+  padding-bottom: 90px;
+}
+
+.what-we-do {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.what-we-do p {
+  margin-top: 50px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 100px;
+  margin-bottom: auto;
+}
+
+.icons p {
+  text-align: center;
+  margin-left: -15px;
+  margin-top: auto;
+}
+
+.our-results {
+  background-image: url(headphones_hero_2.jpg);
+  padding: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+
+.our-results h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.our-results p {
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text0 {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -109%);
+  text-align: left;
+  font-size: x-small;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  color: white;
+  padding-top: -100px;
+  align-self: center;
+}
+
+
+.twopercent {
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  padding-bottom: -10px;
+  padding-top: -20px;
+  margin-top: -20px;
+}
+
+.drawing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.pentagon {
+  position: relative;
+  width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color: rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: white;
+  font-size: small;
+
+  /* Add margin for spacing */
+
+}
+
+.pentagon:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+
+}
+
+.container2 {
+  text-align: center;
+  position: relative;
+}
+
+.pentagon2 {
+  position: relative;
+  width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color: rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+
+  /* Add margin for spacing */
+
+}
+
+.pentagon2:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+
+}
+
+.container3 {
+  text-align: center;
+  position: relative;
+}
+
+.pentagon3 {
+  position: relative;
+  width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color: rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+
+  /* Add margin for spacing */
+
+}
+
+.pentagon3:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+
+}
+
+
+.pentagon4 {
+  position: relative;
+  width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color: rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+
+  /* Add margin for spacing */
+
+}
+
+.pentagon4:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+
+}
+
+/*pentagon section ends*/
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.formsection {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textbox {
+  width: 30%;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#name::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+#email::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+#message::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: hwb(208 0% 79%);
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.copyright {
+  text-align: center;
+  color: gray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+@font-face {
+  font-family: 'holberton_school-icon';
+  src: url('fonts/holberton_school-icon.eot?sq4eq4');
+  src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+
+.holberton_school-icon-ic_facebook:before {
+  color: white;
+  content: "\e908";
+  font-size: 48px;
+  padding: 10px;
+}
+
+.holberton_school-icon-ic_hearing:before {
+  color: #FF6565;
+  font-size: 80px;
+  content: "\e909";
+}
+
+.holberton_school-icon-ic_instagram:before {
+  color: white;
+  font-size: 48px;
+  content: "\e90a";
+  padding: 10px;
+
+
+}
+
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+
+.holberton_school-icon-ic_music:before {
+  color: #FF6565;
+  font-size: 80px;
+  content: "\e90d";
+}
+
+.holberton_school-icon-ic_sound:before {
+  color: #FF6565;
+  font-size: 80px;
+  content: "\e90e";
+}
+
+.holberton_school-icon-ic_twitter:before {
+  font-size: 48px;
+  color: white;
+  content: "\e90f";
+  padding: 10px;
+}
+
+.holberton_school-icon-ic_video:before {
+  color: #FF6565;
+  font-size: 80px;
+  content: "\e910";
+}
+
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+
+.holberton_school-icon-star:before {
+  content: "\e914";
+}

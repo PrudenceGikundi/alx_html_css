@@ -1,0 +1,170 @@
+
+
+.our-results{
+  background-image: url(headphones_hero_2.jpg);
+  padding: 100px;
+  padding-bottom: 100px;
+}
+.our-results h1{
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.our-results p{
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text0 {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -109%);
+  text-align: left;
+  font-size: x-small;
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 0px;
+  color: white;
+  padding-top: -100px;
+  align-self: center;
+  }
+
+
+.twopercent {
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  padding-bottom: -10px;
+  padding-top: -20px;
+  margin-top: -20px;
+}
+.drawing{
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.pentagon{
+	position: relative;
+	width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color:  rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: white;
+  font-size: small;
+	
+ /* Add margin for spacing */
+  
+}
+
+.pentagon:after {
+	content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+ 
+}
+.container2 {
+  text-align: center;
+  position: relative;
+}
+.pentagon2{
+	position: relative;
+	width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color:  rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+	
+ /* Add margin for spacing */
+  
+}
+
+.pentagon2:after {
+	content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+ 
+}
+
+.container3 {
+  text-align: center;
+  position: relative;
+}
+.pentagon3{
+	position: relative;
+	width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color:  rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+	
+ /* Add margin for spacing */
+  
+}
+
+.pentagon3:after {
+	content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+ 
+}
+
+
+.pentagon4{
+	position: relative;
+	width: 108px;
+  box-sizing: content-box;
+  border-width: 100px 36px 0;
+  border-style: solid;
+  border-color:  rgb(245, 79, 79) transparent;
+  margin-top: 120px;
+  color: black;
+  font-size: small;
+	
+ /* Add margin for spacing */
+  
+}
+
+.pentagon4:after {
+	content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -170px;
+  left: -36px;
+  border-width: 0 90px 70px;
+  border-style: solid;
+  border-color: transparent transparent rgb(245, 79, 79);
+ 
+}

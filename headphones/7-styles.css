@@ -95,6 +95,10 @@ button:hover {
   padding-bottom: 90px;
 }
 
+/* The element to apply the animation to */
+
+
+
 .what-we-do {
   margin-bottom: 50px;
   margin-top: 80px;
@@ -102,7 +106,7 @@ button:hover {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: block;
   text-align: center;
-
+  
 }
 
 .what-we-do p {
@@ -110,21 +114,19 @@ button:hover {
 }
 
 .display-icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 100px;
   margin-bottom: auto;
   text-align: center;
   align-self: center;
+  
 
 
+	
 }
 
-
+ 
 .icons p {
   text-align: center;
   margin-left: -15px;
@@ -133,7 +135,7 @@ button:hover {
 
 
 
-/* The element to apply the animation to */
+
 
 
 .our-results {
@@ -144,7 +146,7 @@ button:hover {
   color: white;
   margin-bottom: 0px;
   padding-bottom: 50px;
-
+  
 }
 
 .our-results h1 {
@@ -269,55 +271,47 @@ textarea {
 
 .textbox {
   width: 30%;
-  margin: 0 auto;
+  margin: 0 auto; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-#name::placeholder {
+#name::placeholder{
   color: black;
   font-weight: bold;
 }
-
-#email::placeholder {
+#email::placeholder{
   color: black;
   font-weight: bold;
 }
-
-#message::placeholder {
+#message::placeholder{
   color: black;
   font-weight: bold;
 }
-
-footer {
+footer{
   margin-top: 100px;
   background-color: hwb(208 0% 79%);
   padding-top: 100px;
   padding-bottom: 40px;
 }
-
-.socials {
+.socials{
   display: flex;
   justify-content: flex-end;
   margin-right: 150px;
 }
-
-.footer {
+.footer{
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   padding-top: 30px;
 }
-
-.copyright {
+.copyright{
   text-align: center;
   color: gray;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-top: 40px;
   margin-bottom: 20px;
 }
-
-/*what we do animation*/
-.animate {
+/*animation*/
+.animate{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -328,39 +322,44 @@ footer {
 
 
 }
-
 .bounce1 {
   display: flex;
   flex-direction: row;
-  animation: bounce 0.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
-  animation-iteration-count: infinite;
+  animation: bounce 0.5s; 
+  animation-direction: alternate; 
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+  animation-iteration-count: infinite; 
   animation-name: bounce;
   padding-left: 50px;
 }
 
-@keyframes bounce {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    transform: translate3d(0, 200px, 0);
-  }
+@keyframes bounce{ 
+  from { transform: translate3d(0, 0, 0);} 
+  to { transform: translate3d(0, 200px, 0);} 
 }
 
-/*our results animation*/
+.bounce1 {
+  display: flex;
+  flex-direction: row;
+  animation: bounce 0.5s; 
+  animation-direction: alternate; 
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+  animation-iteration-count: infinite; 
+  animation-name: bounce;
+}
+
+@keyframes bounce{ 
+  from { transform: translate3d(0, 0, 0);} 
+  to { transform: translate3d(0, 200px, 0);} 
+}
 .pentagone {
   rotate: 0deg;
 }
-
 
 .pentagone:hover {
   rotate: 360deg;
   transition: rotate 1s;
 }
-
 
 
 
@@ -435,7 +434,7 @@ footer {
   color: #FF6565;
   font-size: 80px;
   content: "\e909";
-
+ 
 }
 
 .holberton_school-icon-ic_instagram:before {
@@ -443,8 +442,8 @@ footer {
   font-size: 48px;
   content: "\e90a";
   padding: 10px;
-
-
+  
+ 
 }
 
 .holberton_school-icon-ic_laptop:before {
@@ -480,7 +479,7 @@ footer {
   color: #FF6565;
   font-size: 80px;
   content: "\e910";
-
+ 
 }
 
 .holberton_school-icon-menu:before {
@@ -498,3 +497,4 @@ footer {
 .holberton_school-icon-star:before {
   content: "\e914";
 }
+

@@ -1,0 +1,155 @@
+.hero-piece{
+  background-image: url('/css_advanced/Object.png');
+  caret-color: black;
+  
+  }
+
+header{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  
+}
+.headersection{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.logo{
+  margin-right:auto;
+  margin-left: 100px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 550px;
+  padding: 0px;
+  list-style: none;
+  text-align: end;
+  align-items: end;
+  
+  
+}
+
+.nav-link {
+ list-style: none;
+ text-decoration: none;
+ color:white;
+ transition: all 0.3s ease 0s;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link:hover{
+  color:#FF6565;
+ 
+}
+
+.nav-item {
+  display:inline-block;
+  padding:0px 5px;
+}
+main{
+ 
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:block;
+  text-align: center;
+  
+}
+.get-schooled{
+  color: white;
+  text-align: center;
+}
+.get-schooled h1{
+  font-size: 70px;
+  margin-top: 200px;
+  font-weight: bolder;
+ 
+}
+.get-schooled p{
+  display: inline-block;
+  font-size: 20px;
+  padding: 25px;
+  padding-top: -300px;
+  margin-top: -200px;
+  margin-bottom: -50px;
+}
+button{
+  background-color: rgb(235, 148, 235);
+  border: none;
+  border-radius: 24px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+.learn{
+  color: blueviolet;
+  font-weight: bolder;
+  font-size: larger;
+}
+.pros{
+  font-size: larger;
+  font-weight:lighter ;
+
+ 
+}
+.alumns{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 80px;
+
+}
+.italics{
+  font-style: italic;
+}
+.photo3 img{
+border-radius: 100px;
+}
+.quote{
+  background-color: rgb(118, 73, 160);
+  color: white;
+ display: flex;
+ justify-content: center;
+padding-top: 100px;
+padding-bottom: 100px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.person1{
+  padding-right: 30px;
+}
+.review h1{
+  font-size:2px ;
+}
+.popular{
+  color: blueviolet;
+}
+.videolist h1{
+  text-align: center;
+}
+.rating{
+  display: flex;
+  justify-content: space-around;
+}
+.rating h1{
+  color: black;
+}
+.rating p{
+  color: grey;
+}
+
+.main-image{
+  position: absolute;
+}
+.small-image{
+  position: absolute;
+  margin-left: 90px;
+ margin-top: 40px;
+}

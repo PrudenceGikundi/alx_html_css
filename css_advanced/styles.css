@@ -144,7 +144,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .rating p{
   color: grey;
 }
-
+.types{
+  margin-top: 160px;
+  margin-left: -90px;
+}
 .main-image{
   position: absolute;
 }

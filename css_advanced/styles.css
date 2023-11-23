@@ -18,13 +18,14 @@ header{
   justify-content: flex-end;
 }
 .logo{
+  margin-top: auto;
   margin-right:auto;
   margin-left: 100px;
 }
 nav {
   display: flex;
   justify-content: flex-end;
-  margin-left: 550px;
+  margin-left: 750px;
   padding: 0px;
   list-style: none;
   text-align: end;
@@ -69,11 +70,11 @@ main{
 }
 .get-schooled p{
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   padding: 25px;
-  padding-top: -300px;
+  padding-top: -350px;
   margin-top: -200px;
-  margin-bottom: -50px;
+  margin-bottom: -28px;
 }
 button{
   background-color: rgb(235, 148, 235);
@@ -105,6 +106,7 @@ button{
   text-align: center;
   justify-content: space-around;
   margin-top: 80px;
+ margin-bottom: 50px;
 
 }
 .italics{
@@ -201,7 +203,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   display: flex;
   justify-content: space-around;
   margin-bottom: 60px;
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .faq{
   margin-top: 80px;
@@ -209,10 +211,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .faq h1{
   text-align: center;
   margin-top: 50px;
+  font-size: 50px;
+  font-weight: lighter;
 }
 footer{
   background-color:hwb(208 0% 79%) ;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 
@@ -220,6 +224,7 @@ footer{
   display: flex;
   justify-content: flex-end;
   margin-right: 150px;
+  size: 35px;
 }
 .footer{
   display: flex;

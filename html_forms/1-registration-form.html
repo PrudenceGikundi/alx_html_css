@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration form</title>
+</head>
+<body>
+  <form action="/my-registration-form-page" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" required/>
+    </div>
+
+    <div>
+      <label for="email address">email:</label>
+      <input type="email" id="email" name="user_email" required/>
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_password" required/>
+    </div>
+
+    <div>
+      <label for="confirm_password">Confirm password:</label>
+      <input type="password" id="confirm_password" name="user_password_confirmation" required oninput="checkpasswordmatch()"/>
+    </div>
+
+    <div class="button">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <script>
+    function checkPasswordMatch() {
+      let password = document.getElementById("password").value;
+      let confirmPassword = document.getElementById("confirm-password").value;
+      if (password != confirmPassword) {
+        document.getElementById("confirm-password").setCustomValidity("Passwords do not match");
+        alert("successful")
+      } else {
+        document.getElementById("confirm-password").setCustomValidity("");
+      }
+    }
+  </script>
+</body>
+</html>
